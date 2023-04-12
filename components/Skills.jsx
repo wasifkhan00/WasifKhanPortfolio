@@ -15,7 +15,6 @@ import Python from "../public/assets/skills/python.png";
 import Git from "../public/assets/skills/git.png";
 import Typescript from "../public/assets/skills/typescript.png";
 import SQL from "../public/assets/skills/sql.png";
-import Mongoose from "../public/assets/skills/mongoose.png";
 import AWS from "../public/assets/skills/aws.png";
 
 const Skills = () => {
@@ -157,10 +156,10 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Mongoose} width="64px" height="64px" alt="/" />
+                <Image src={AWS} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Mongoose</h3>
+                <h3>AWS</h3>
               </div>
             </div>
           </div>
