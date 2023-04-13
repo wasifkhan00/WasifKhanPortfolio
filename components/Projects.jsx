@@ -1,47 +1,44 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
-import ProjectItem from './ProjectItem';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import propertyImg from "../public/assets/projects/chatapp.jpg";
+import cryptoImg from "../public/assets/projects/crypto app.jpg";
+import netflixImg from "../public/assets/projects/weather app.jpg";
+import twitchImg from "../public/assets/projects/portfolio app.jpg";
+import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+    <div id="projects" className="w-full">
+      <div className="max-w-[1240px] mx-auto px-2 py-16">
+        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
-        <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div className='grid md:grid-cols-2 gap-8'>
+        <h2 className="py-4">What I&apos;ve Built</h2>
+        <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title='Property Finder'
+            title="Messaging App"
             backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            projectUrl="/property"
+            tech="React JS"
           />
           <ProjectItem
-            title='Crypto App'
+            title="Cryptocurrencies App"
             backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
+            projectUrl="/crypto"
+            tech="React JS"
           />
           <ProjectItem
-            title='Netflix App'
+            title="Weather App"
             backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
+            projectUrl="/netflix"
+            tech="Vanilla JS"
           />
           <ProjectItem
-            title='Twitch UI'
+            title="Portfolio"
             backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
+            projectUrl="/twitch"
+            tech="Next JS"
           />
         </div>
       </div>
