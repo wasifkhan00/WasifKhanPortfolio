@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import propertyImg from "../public/assets/projects/crypto app.jpg";
-import cryptoImg from "../public/assets/projects/crypto app.jpg";
-import netflixImg from "../public/assets/projects/crypto app.jpg";
-import twitchImg from "../public/assets/projects/crypto app.jpg";
+import propertyImg from "../public/assets/projects/cryptoapp.jpg";
+import cryptoImg from "../public/assets/projects/chatapp.jpg";
+import netflixImg from "../public/assets/projects/portfolioapp.jpg";
+import twitchImg from "../public/assets/projects/weatherapp.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Blog = () => {
