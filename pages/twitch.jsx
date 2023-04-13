@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import twitchImg from "../public/assets/projects/portfolio app.jpg";
+import twitchImg from "../public/assets/projects/portfolioapp.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
