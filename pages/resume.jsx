@@ -151,8 +151,8 @@ const resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold">Islamabad Pakistan</span>
-            <span className="px-2">|</span>Islamabad Pakistan
+            <span className="font-bold">CITY OF SHERMAN, TX</span>
+            <span className="px-2">|</span>Sherman, TX
           </p>
           <p className="py-1 italic">Paramedic / Firefighter (2010 – 2019)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
