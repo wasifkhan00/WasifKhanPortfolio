@@ -1,10 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-import propertyImg from "../public/assets/projects/cryptoapp.jpg";
-import cryptoImg from "../public/assets/projects/chatapp.jpg";
-import netflixImg from "../public/assets/projects/portfolioapp.jpg";
-import twitchImg from "../public/assets/projects/weatherapp.jpg";
+import propertyImg from "../public/assets/projects/LuminarAI.PNG";
+import cryptoImg from "../public/assets/projects/googlePage.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Blog = () => {
@@ -17,28 +13,16 @@ const Blog = () => {
         <h2 className="py-4">Blogs i've Written so far!</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
+            title="Luminar AI"
             backgroundImg={propertyImg}
-            projectUrl="/property"
-            tech="React JS"
+            projectUrl="https://greyjournal.net/2021/08/04/https-greyjournal-net-why-is-everyone-obsessed-with-luminar-ai/"
+            tech="Grey Journal"
           />
           <ProjectItem
-            title="Crypto App"
+            title="Google Page Experience"
             backgroundImg={cryptoImg}
-            projectUrl="/crypto"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Netflix App"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Twitch UI"
-            backgroundImg={twitchImg}
-            projectUrl="/twitch"
-            tech="Next JS"
+            projectUrl="https://greyjournal.net/2021/08/21/google-page-experience-updates-painful/"
+            tech="Grey Journal"
           />
         </div>
       </div>
