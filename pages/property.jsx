@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import propertyImg from "../public/assets/projects/chatapp.jpg";
+import propertyImg from "../public/assets/projects/chatapp.jpeg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
