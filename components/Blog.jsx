@@ -1,6 +1,6 @@
 import React from "react";
 import propertyImg from "../public/assets/projects/LuminarAI.PNG";
-import cryptoImg from "../public/assets/projects/googlePage.jpg";
+import cryptoImg from "../public/assets/projects/PageExp.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Blog = () => {
