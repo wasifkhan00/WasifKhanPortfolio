@@ -27,13 +27,14 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+            I developed this web application in javascript, HTML and CSS. You
+            can find the repository on GitHub and Netlify is used as Paas. This
+            web app intends to provide users the hourly and weekly weather
+            forecast of the user's exact location. If the user denies to allow
+            the location access the website will be redirected to 403 error
+            page. Despite that , there are 4 different default locations where
+            you can check the hourly and weekly forecast of that specific
+            location.
           </p>
 
           <a
@@ -54,19 +55,16 @@ const netflix = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> HTML
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> IMDB API
+                <RiRadioButtonFill className="pr-1" /> CSS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> API
               </p>
             </div>
           </div>

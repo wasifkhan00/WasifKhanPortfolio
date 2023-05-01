@@ -23,14 +23,14 @@ const About = () => {
             specific language, but choosing the best tool for the job.
           </p>
           <p className="py-2 text-gray-600">
-            I started web developement in 2021, I'd make websites for fun like
-            games that we'd play in actual life. Subsequently, I got interested
-            in the servers and I'd send forms data to the server & I'd put that
-            data on the database and it made me interested in the backend. Due
-            to that I decided to not focus on the frontend only but the backend
-            also. So for the backend I learned and worked with AWS and after
-            working with AWS it made me more interested in the backend and study
-            it deeply.
+            I started my self-taught web developement jounrey in 2020, I had
+            started web development as a fun. Subsequently, my interest for it
+            got broader and I started loving to work with forms data & would
+            always be curious to connect the server and the frontend. Due to
+            that I decided not to focus only on the frontend but the backend as
+            well. So for the backend I learned and worked with AWS and after
+            working with AWS it made me more interested in the backend, cloud
+            computing and I started digging it deeply.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
