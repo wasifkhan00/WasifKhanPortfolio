@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import cryptoImg from "../public/assets/projects/cryptoapp.jpg";
+import cryptoImg from "../public/assets/projects/crypto.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -27,16 +27,15 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router
-            DOM&quot; package. This application was built using the Coin Gecko
-            API.
+            I developed this web application to demonstrate working in ReactJS
+            and accessing API endpoints of a third party. The web app repository
+            is hosted on github and used Netlify for platform as a service. The
+            web app provides historical coins data of serval coins, data
+            includes weekly, monthly and yearly data in a chart. I have
+            integrated Google authentication API for login purposes and when the
+            user enters the credentials it is stored to mongoDB. dark and light
+            mode feature has also been integrated in the web app. Web app is
+            fully responsive works on all screen sizes perfectly.
           </p>
 
           <a

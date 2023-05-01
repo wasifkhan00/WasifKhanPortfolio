@@ -27,14 +27,15 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app was a little challenging because of the management of
+            different components. The app provides the services of real-time
+            chat in a group. You can delete, rename, add friends, and leave the
+            group. If the people in the group exceeds 5 user will not be able to
+            add more friends. Both the backend and the frontend repositories can
+            be found on Github However frontend uses Netlify as Paas whereas
+            Backend is hosted on Aws Ec2 instance on a paid domain. During the
+            development of this web application I got to know alot of new things
+            about react, hosting and cloud computing on Aws.
           </p>
           <a
             href="https://stewardsmessenger.netlify.app/"
@@ -72,7 +73,7 @@ const property = () => {
                 <RiRadioButtonFill className="pr-1" /> MongoDB
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> AWS EC2 Instance
+                <RiRadioButtonFill className="pr-1" /> AWS
               </p>
             </div>
           </div>
