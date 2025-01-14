@@ -15,9 +15,9 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&#39;m <span className="text-[#5651e5]"> Wasif Khan</span>
           </h1>
-          <h1 className="py-2 text-gray-700">Full stack Developer</h1>
+          <h1 className="py-2 text-gray-700">Archive Portfolio</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I’m focused on building responsive web applications with MERN Stack
+           <a href="https://wasifkhandevportfolio.netlify.app/"> Please Click Me to Visit Latest Portfolio of Wasif Khan </a>
             {/* & Mobile Apps */}
             {/* integrating back-end technologies. */}
           </p>
